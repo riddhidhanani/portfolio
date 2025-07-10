@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve -s dist",
+    "build": "tsc -b && vite build"
   },
   "dependencies": {
     "bootstrap": "^5.3.7",
@@ -17,7 +19,8 @@
     "react-bootstrap": "^2.10.10",
     "react-dom": "19.0.0",
     "react-icons": "^5.5.0",
-    "react-router-dom": "^7.6.3"
+    "react-router-dom": "^7.6.3",
+    "serve": "^14.2.4"
   },
   "devDependencies": {
     "@getmocha/vite-plugins": "latest",
