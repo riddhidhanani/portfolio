@@ -1,8 +1,6 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
 
-const Footer = () => {
-  const currentYear = new Date().getFullYear();
-  
+const Footer = () => { 
   return (
     <footer className="footer">
       <div className="container">
