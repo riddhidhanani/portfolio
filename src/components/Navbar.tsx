@@ -65,7 +65,7 @@ const Navbar = () => {
               className={activeSection === 'experience' ? 'active' : ''} 
               onClick={() => scrollToSection('experience')}
             >
-              Experience
+              Projects
             </button>
           </li>
           <li>
@@ -73,7 +73,7 @@ const Navbar = () => {
               className={activeSection === 'projects' ? 'active' : ''} 
               onClick={() => scrollToSection('projects')}
             >
-              Projects
+              Experience
             </button>
           </li>
           <li>
