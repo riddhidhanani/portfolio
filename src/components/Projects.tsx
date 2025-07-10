@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ExternalLink, Github } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { Github } from 'lucide-react';
 
 const projects = [
   {
