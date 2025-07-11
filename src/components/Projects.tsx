@@ -41,7 +41,7 @@ const projects = [
     image: '/minimalist-moon.png',
     technologies: ['React', 'Javascript', 'CSS', 'React Libraries'],
     link: 'https://github.com/riddhidhanani',
-    date: 'July 2024'
+    date: 'June 2023'
   },
   {
     id: 'price prediction',
@@ -51,7 +51,17 @@ const projects = [
     image: '/pricePrediction.png',
     technologies: ['Python', 'Matplotlib', 'Pandas', 'Flask', 'NumPy'],
     link: 'https://github.com/riddhidhanani/BangloreHomePrices',
-    date: 'July 2024'
+    date: 'March 2025'
+  },
+  {
+    id: 'social media dashboard',
+    title: 'Social Media Analytics Dashboard',
+    shortDescription: 'React-based dashboard',
+    fullDescription: 'A comprehensive React-based dashboard for analyzing social media performance across multiple platforms including Facebook, Instagram, LinkedIn, and YouTube.',
+    image: '/socialmedia.jpg',
+    technologies: ['React', 'Tailwind CSS', 'Vite', 'Bootstrap'],
+    link: 'https://github.com/riddhidhanani/Social-Media-Analytics-Dashboard',
+    date: 'June 2025'
   }
 ];
 

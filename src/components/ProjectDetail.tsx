@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ExternalLink, Github } from 'lucide-react';
+import { link } from 'framer-motion/client';
 
 const projects = [
   {
@@ -134,6 +135,28 @@ const projects = [
     link: 'https://github.com/riddhidhanani/BangloreHomePrices',
     githubLink: 'https://github.com/riddhidhanani/BangloreHomePrices',
     date: 'March 2025'
+  },
+  {
+    id: 'social media dashboard',
+    title: 'Social Media Analytics Dashboard',
+    shortDescription: 'React-based dashboard',
+    fullDescription: 'A comprehensive React-based dashboard for analyzing social media performance across multiple platforms including Facebook, Instagram, LinkedIn, and YouTube.',
+    detailedDescription: ` 
+      <h4>Key Features:</h4>
+      <ul>
+        <li><strong>Summary Cards: </strong> Summary Cards: Key metrics including total posts, average engagement, total likes, and total shares</li>
+        <li><strong>Engagement Rate Over Time: </strong> Line chart showing engagement trends</li>
+        <li><strong>Post Type Breakdown: </strong> Pie chart displaying content type distribution</li>
+        <li><strong>Top Posts: </strong> Bar chart of highest performing posts by engagement</li>
+        <li><strong>Filter</strong> data by platform (All, Facebook, Instagram, LinkedIn, YouTube)</li>
+        <li><strong>PDF Export Functionality: </strong> The dashboard includes PDF export button option as well</li>
+      </ul>
+    `,
+    image: '/socialmedia.jpg',
+    technologies: ['React', 'Tailwind CSS', 'Vite', 'Bootstrap'],
+    link: 'https://social-media-analytics-dashboard-du2k.onrender.com/',
+    githubLink: 'https://github.com/riddhidhanani/Social-Media-Analytics-Dashboard',
+    date: 'June 2025'
   }
 ];
 
