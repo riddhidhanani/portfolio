@@ -61,16 +61,16 @@ const Navbar = () => {
           </li>
           <li>
             <button 
-              className={activeSection === 'experience' ? 'active' : ''} 
-              onClick={() => scrollToSection('experience')}
+              className={activeSection === 'projects' ? 'active' : ''} 
+              onClick={() => scrollToSection('projects')}
             >
               Projects
             </button>
           </li>
           <li>
             <button 
-              className={activeSection === 'projects' ? 'active' : ''} 
-              onClick={() => scrollToSection('projects')}
+              className={activeSection === 'experience' ? 'active' : ''} 
+              onClick={() => scrollToSection('experience')}
             >
               Experience
             </button>
