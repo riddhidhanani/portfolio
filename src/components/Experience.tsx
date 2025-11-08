@@ -3,7 +3,7 @@ import { Calendar } from 'lucide-react';
 
 const experiences = [
   {
-    title: "Operations Intern",
+    title: "Software Engineer Intern",
     company: "University of Texas at Arlington",
     period: "April 2024 - Present",
     description: [
