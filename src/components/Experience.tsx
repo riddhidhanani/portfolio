@@ -3,9 +3,9 @@ import { Calendar } from 'lucide-react';
 
 const experiences = [
   {
-    title: "Software Engineer Intern",
+    title: "Operations Intern",
     company: "University of Texas at Arlington",
-    period: "April 2024 - Present",
+    period: "April 2024 - December 2025",
     description: [
       "Developed an interactive Content LMS form for the university site using React, Node.js, and PostgreSQL, enabling dynamic retrieval of student data and automated responses to common inquiries through REST API integration.",
       "Maintained and updated university web systems for cross-browser compatibility, responsive design, and accessibility compliance across campus-wide platforms using JavaScript, CSS, and version control via Git.",

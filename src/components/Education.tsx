@@ -6,7 +6,7 @@ const educationData = [
     degree: "Master of Science in Computer Science",
     university: "University of Texas at Arlington",
     location: "United States",
-    period: "January 2024 - Present",
+    period: "January 2024 - December 2025",
     gpa: "3.88 / 4.0",
 
   },
