@@ -4,6 +4,17 @@ import { Github } from 'lucide-react';
 
 const projects = [
   {
+  id: 'smartbudget-tracker',
+  title: 'SmartBudget Tracker',
+  shortDescription: 'Personal finance tracker with AI-powered insights and subscription management',
+  fullDescription: 'Built a full-stack budgeting web app using React and Node.js to track income, expenses, and subscriptions with smart billing logic, 3-day renewal alerts, and Claude AI-generated monthly financial summaries stored in PostgreSQL.',
+  image: '/smartBudget.png',
+  technologies: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Prisma ORM', 'Tailwind CSS', 'Claude API', 'Recharts'],
+  link: 'https://smartbudget-ashen.vercel.app',
+  githubLink: 'https://github.com/riddhidhanani/smartbudget',
+  date: 'March 2026'
+ },
+  {
     id: 'accessibility-analyzer',
     title: 'Accessibility Analyzer',
     shortDescription: 'Web accessibility audit tool using Lighthouse and Axe-core',

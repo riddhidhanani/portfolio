@@ -6,6 +6,34 @@ import { ArrowLeft, ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+  id: 'smartbudget-tracker',
+  title: 'SmartBudget Tracker',
+  shortDescription: 'Personal finance tracker with AI-powered monthly insights and subscription management',
+  fullDescription: 'Built a full-stack personal finance web app using React and Node.js to track income, expenses, and subscriptions with smart billing logic, renewal alerts, and Claude AI-generated monthly financial summaries.',
+  detailedDescription: `
+    <p>SmartBudget Tracker is a comprehensive budgeting tool designed to give individuals complete visibility into their spending habits — with intelligent subscription management and plain-English AI summaries that make personal finance approachable for everyone.</p>
+    
+    <h4>Key Features:</h4>
+    <ul>
+      <li><strong>Transaction Tracking:</strong> Log income and expenses with categories, dates, and notes — filter by month, year, and type with full edit and delete support</li>
+      <li><strong>Interactive Dashboard:</strong> Visual spending breakdowns via pie, bar, and line charts powered by Recharts, updating in real time based on selected month</li>
+      <li><strong>Subscription Manager:</strong> Track recurring payments with automatic next billing date calculation, month-based filtering, and Active/Cancelled history</li>
+      <li><strong>Renewal Alert System:</strong> Banner alert appears automatically when any subscription renews within 3 days, showing name and charge amount</li>
+      <li><strong>AI Financial Summary:</strong> Integrates the Claude API to generate plain-English monthly financial health reports with personalized savings tips</li>
+      <li><strong>Smart Billing Logic:</strong> Subscription costs are only counted in months where billing actually occurs — cancellations handled precisely before and after billing date</li>
+    </ul>
+    
+    <p>The application was built with a React/Vite frontend communicating with a Node.js/Express backend. PostgreSQL with Prisma ORM was used for data persistence, storing transactions and subscription history with JWT-based authentication.</p>
+    
+    <p>One of the main challenges was building the subscription billing logic. The system needed to correctly calculate which months a subscription should be charged, handle cancellations before vs. after the billing date, and auto-advance renewal dates — all without storing redundant data. It took multiple iterations to get every edge case exactly right.</p>
+  `,
+  image: '/smartBudget.png',
+  technologies: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Prisma ORM', 'Tailwind CSS', 'JWT', 'Claude API', 'Recharts'],
+  link: 'https://smartbudget-ashen.vercel.app',
+  githubLink: 'https://github.com/riddhidhanani/smartbudget',
+  date: 'March 2026'
+},
+  {
     id: 'accessibility-analyzer',
     title: 'Accessibility Analyzer',
     shortDescription: 'Web accessibility audit tool using Lighthouse and Axe-core',
